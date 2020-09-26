@@ -7,6 +7,7 @@
 using namespace std;
 int Autotest();
 int main () {
+Autotest();
 CComplexVector q,e;
 ifstream fin("zhozhozho.txt");
 q.setVector(fin);
