@@ -7,9 +7,9 @@ using namespace std;
 double Autotest (void) {
     CComplexPoint sk;
     CComplexVector q,e,sum,raz;
-    ifstream fin("test");
+    ifstream fin("test.txt");
     q.setVector(fin);e.setVector(fin);
-    ifstream vin("res");
+    ifstream vin("restest.txt");
     sum.setVector(vin);raz.setVector(vin);
     sk=e.scala(q);
     for (int i=0;i<N;i++) {

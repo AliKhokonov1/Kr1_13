@@ -8,7 +8,7 @@ using namespace std;
 int Autotest();
 int main () {
 CComplexVector q,e;
-ifstream fin("zho");
+ifstream fin("zhozhozho.txt");
 q.setVector(fin);
 e.setVector(fin);
 cout<<"Скалярное произведение q и e: "<<endl; e.scala(q).print(); cout<<endl<<endl;
